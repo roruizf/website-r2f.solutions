@@ -1,4 +1,4 @@
 # website-r2f
 
-Página profesional de Roberto Ruiz Flores fundador de R2F SpA. Ingeniero mecánico con más de 10 años de experiencia en el campo de la eficiencia energética de edificios.
-Fuerte enfoque en el modelado energético e interés en aplicaciones de data science y machine learning.
+Professional page of Roberto Ruiz Flores, founder of R2F Energy Efficient Solutions LLC. Mechanical engineer with over 10 years of experience in the field of building energy efficiency.
+Strong focus on energy modeling and interest in data science and machine learning applications.
