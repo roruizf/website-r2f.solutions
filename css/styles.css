@@ -208,8 +208,23 @@ section {
   /* padding-top: 90px; */
   min-height: 80%;
   max-height: 85%;
-  opacity: 0.95;
-  color: rgba(255, 255, 255, 0.95);
+  position: relative; /* Needed for the overlay */
+  color: #fff;
+}
+
+#home::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+#home .container {
+  position: relative;
+  z-index: 1;
 }
 
 #home h5 {
