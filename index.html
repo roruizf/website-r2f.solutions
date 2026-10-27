@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>R2F — Energy and comfort modelling for BREEAM and LEED</title>
-  <meta name="description" content="R2F builds the energy and thermal comfort models behind BREEAM and LEED credits for consultancies, assessors and engineering teams in Europe. Model, assumptions, QA and evidence, under your brand or ours.">
+  <meta name="description" content="Energy and thermal comfort modelling for BREEAM and LEED credits. Models, assumptions, QA and evidence for consultancies and assessors in Europe.">
   <link rel="canonical" href="https://r2f.solutions/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="R2F — Energy and comfort modelling for BREEAM and LEED">
   <meta property="og:description" content="The simulation-heavy part of the credit route: model, assumptions, QA and evidence.">
   <meta property="og:url" content="https://r2f.solutions/">
-  <meta property="og:image" content="https://r2f.solutions/img/roberto-ruiz.jpg">
+  <meta property="og:image" content="https://r2f.solutions/img/og-r2f.png">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="preload" href="fonts/schibsted-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/site.css">
   <script type="application/ld+json">
   {
@@ -41,7 +41,7 @@
       <a href="services/">Services</a>
       <a href="#process">Process</a>
       <a href="#cases">Cases</a>
-      <a href="#about">About</a>
+      <a href="about/">About</a>
       <a href="#faq">FAQ</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -215,7 +215,7 @@
             <thead><tr><th scope="col">Building</th><th scope="col">Scheme</th><th scope="col">Credits</th><th scope="col">Area</th></tr></thead>
             <tbody>
               <tr><th scope="row">Logistics and offices, Portugal</th><td data-label="Scheme">BREEAM International NC V6</td><td data-label="Credits">Ene 01, Hea 04</td><td data-label="Area">32,230 m²</td></tr>
-              <tr><th scope="row">Airport hotel, Hungary</th><td data-label="Scheme">BREEAM</td><td data-label="Credits">Hea 04</td><td data-label="Area">—</td></tr>
+              <tr><th scope="row">Airport hotel, Hungary</th><td data-label="Scheme">BREEAM</td><td data-label="Credits">Hea 04</td><td data-label="Area">7,995 m²</td></tr>
               <tr><th scope="row">Logistics and offices, halted before certification</th><td data-label="Scheme">BREEAM</td><td data-label="Credits">Ene 01, Hea 04</td><td data-label="Area">49,546 m²</td></tr>
             </tbody>
           </table>
@@ -273,7 +273,9 @@
         <p>Ten answers about your project. We reply with the energy and comfort credits still open at your stage, what each one needs, and a price per credit.</p>
         <p class="read-note">Not sure about a field? Choose "Not sure". Only the scheme and your email are required.</p>
       </div>
-      <form class="read-form" id="read-form" action="mailto:roberto@r2f.solutions" method="post" enctype="text/plain">
+      <form class="read-form" id="read-form" action="https://formspree.io/f/FORMSPREE_ID" method="post" data-endpoint="https://formspree.io/f/FORMSPREE_ID">
+        <input type="hidden" name="_subject" value="Credit Viability Read request">
+        <div class="hp" aria-hidden="true"><label for="f-gotcha">Leave this empty</label><input id="f-gotcha" type="text" name="_gotcha" tabindex="-1" autocomplete="off"></div>
         <fieldset>
           <legend>The certification</legend>
           <div class="field">
@@ -398,8 +400,9 @@
           </div>
         </fieldset>
         <div class="read-submit">
-          <button class="btn" type="submit">Prepare the email</button>
-          <p>This opens your email app with your answers filled in. Nothing is stored on this site.</p>
+          <button class="btn" type="submit">Send the request</button>
+          <p>Your answers go to Roberto by email. Nothing else is done with them.</p>
+          <p class="read-status" id="read-status" role="status" aria-live="polite"></p>
         </div>
       </form>
     </div>
@@ -440,7 +443,7 @@
       </ul>
     </div>
     <footer class="site-footer">
-      <span>© 2026 R2F Energy Efficient Solutions LLC</span>
+      <span>© 2026 R2F Energy Efficient Solutions LLC · <a href="privacy/">Privacy</a></span>
       <span><a href="https://www.linkedin.com/company/r2f-energy-efficient-solutions">LinkedIn</a> · <a href="https://github.com/roruizf">GitHub</a></span>
     </footer>
   </div>
