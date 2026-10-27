@@ -1,572 +1,299 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="description"
-    content="R2F is a company specialized in energy efficiency and sustainability in building and industry. We provide energy efficiency and sustainability to your projects through energy modeling and data analysis." />
-  <meta name="robots" content="index, follow">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  <title>R2F : Energy Efficient Solutions</title>
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/styles.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Caesar+Dressing&family=Chicle&family=Finger+Paint&family=Montserrat:wght@300;400;600&family=Vampiro+One&display=swap"
-    rel="stylesheet" />
-  <!-- Raleway font -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Anton&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-  <!-- Bangers font -->
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet" />
-  <!-- Lato font -->
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,100;1,300;1,400;1,900&display=swap"
-    rel="stylesheet" />
-  <!-- Russo One -->
-  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet" />
-  <!-- Nunito font -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-
-  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
-  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
-
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7MN9ZMH9VD"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-7MN9ZMH9VD');
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R2F — Energy and comfort modelling for BREEAM and LEED</title>
+  <meta name="description" content="R2F builds the energy and thermal comfort models behind BREEAM and LEED credits for consultancies, assessors and engineering teams in Europe. Model, assumptions, QA and evidence, under your brand or ours.">
+  <link rel="canonical" href="https://r2f.solutions/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="R2F — Energy and comfort modelling for BREEAM and LEED">
+  <meta property="og:description" content="The simulation-heavy part of the credit route: model, assumptions, QA and evidence.">
+  <meta property="og:url" content="https://r2f.solutions/">
+  <meta property="og:image" content="https://r2f.solutions/img/roberto-ruiz.jpg">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "R2F Energy Efficient Solutions LLC",
+    "url": "https://r2f.solutions/",
+    "email": "roberto@r2f.solutions",
+    "description": "Energy and thermal comfort modelling for BREEAM and LEED credits.",
+    "founder": { "@type": "Person", "name": "Roberto Ruiz", "jobTitle": "Mechanical engineer" },
+    "sameAs": ["https://www.linkedin.com/company/r2f-energy-efficient-solutions", "https://www.linkedin.com/in/roruizf", "https://github.com/roruizf"]
+  }
   </script>
-
 </head>
-
 <body>
-  <!-- NavBar -->
-  <!------------>
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand nav-link-logo" href="#home">
-        <img src="img/r2f-logo.png" class="logo-brand" alt="r2f-logo" />
-        <!-- <h4 class="d-inline-block"> R &sup2; F </h4> -->
-      </a>
+<a class="skip" href="#main">Skip to content</a>
 
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <ion-icon name="menu-outline"></ion-icon>
-      </button>
-      <!-- Navbar links -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto ml-auto text-center">
-          <a class="nav-link" href="#home" id="">Home</a>
-          <a class="nav-link" href="#about" id="">About</a>
-          <a class="nav-link" href="#expertise" id="">Services</a>
-          <a class="nav-link" href="#skills" id="">Software</a>
-          <a class="nav-link" href="#contact" id="">Contact Us</a>
-        </div>
-        <!-- Navbar languages -->
-        <!-- <div class="d-flex flex-row justify-content-center">
-            <a class="nav-link-lang" href="#" id="">en</a>
-            <a class="nav-link-lang" href="#" id="">es</a>
-            <a class="nav-link-lang" href="#" id="">fr</a>
-          </div> -->
-      </div>
-    </div>
-  </nav>
-  <!--Home -->
-  <section id="home">
-    <div class="container">
-      <div class="content-center topmargin-lg">
-        <h5>
-          Hello, we are
-          <strong><b><i> R2F : Energy Efficient Solutions
-              </i></b></strong>
-        </h5>
-        <h1><i> Expert Energy Simulation for BREEAM & LEED Certification </i></h1>
-        <h3><i> We partner with sustainability consultants and MEP engineering firms to deliver robust, submission-ready
-            energy analysis and achieve optimal building performance. </i></h3>
-        <a href="#contact" class="btn btn-light topmargin-sm">Contact Us!
-          <!-- <ion-icon name="arrow-redo-sharp"></ion-icon> -->
-        </a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="#main" aria-label="R2F, home">
+      <img src="img/r2f-mark.svg" alt="" width="32" height="27">R2F
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="services/">Services</a>
+      <a href="#process">Process</a>
+      <a href="#cases">Cases</a>
+      <a href="#about">About</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap grid">
+      <h1 id="hero-title">Energy and comfort modelling for BREEAM and LEED credits.</h1>
+      <div class="hero-meta">
+        <p class="lede">Consultancies and assessors bring us the simulation-heavy part of the credit route. We build the model, check it, and write the evidence. Under your brand or ours.</p>
+        <p class="disclaimer">We deliver the modelling and the evidence for the credits. The certifier awards them.</p>
+        <div class="hero-cta"><a class="btn" href="#contact">Get in touch</a></div>
       </div>
     </div>
   </section>
 
-  <!-- ABOUT ME -->
-  <section id="about">
-    <div class="container">
-      <div class="content-center">
-        <h2>Who are we?</h2>
-        <div class="row">
-          <div class="col-md-8">
-
-            <p style="text-align: justify">
-              At R2F Energy Efficient Solutions, we provide the specialized energy simulation services that
-              sustainability consultants, BREEAM/LEED assessors, and MEP engineering firms rely on to secure their
-              certification goals.
-            </p>
-
-            <p style="text-align: justify">
-              We act as your dedicated expert partner, handling the complex technical deep-dive (ASHRAE 90.1, thermal
-              comfort, etc.) so you can focus on your client and overall project success. Our services are designed to
-              deliver a robust, submission-ready evidence package that guarantees compliance and maximizes energy
-              credits.
-            </p>
-            <p style="text-align: justify">
-              Contact us: roberto@r2f.solutions
-            </p>
-          </div>
-          <div class="col-md-4">
-            <div class="member-container">
-              <div class="member-details">
-                <img src="img/r2f-logo_energy-efficient-solutions.png" class="img-fluid rounded member-image"
-                  alt="roruizf-profile-picture" />
-
-                <h5>Energy Efficiency Consultants</h5>
-                <!-- <span>Consultores en eficiencia energética</span> -->
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <a href="mailto:roberto@r2f.solutions">
-                      <ion-icon name="mail"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li class="list-inline-item">
-                    <a href="https://www.linkedin.com/company/r2f-energy-efficient-solutions/">
-                      <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="https://www.instagram.com/r2f.solutions/">
-                      <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
-                  </li>
-                  <!-- <li class="list-inline-item">
-                    <a href="https://twitter.com/roruizf">
-                      <ion-icon name="logo-twitter"></ion-icon>
-                    </a>
-                  </li> -->
-                  <!-- <li class="list-inline-item">
-                    <a href="files/EN_RobertoRuiz_EnergyEfficiency_CV.pdf">
-                      <ion-icon name="cloud-download-outline"></ion-icon>
-                    </a>
-                  </li> -->
-                  <!-- <a href="files/RobertoRuiz_EficienciaEnergética_R2F.pdf" class="btn btn-resume topmargin-sm">Descarga
-                    mi CV!
-                  </a> -->
-                </ul>
-              </div>
-
-            </div>
-          </div>
-        </div>
+  <section class="figure" aria-label="Illustration">
+    <div class="wrap grid">
+      <p class="figure-note">Fig. 1<br>One model, several credits. Energy, operational energy and comfort run on the same zoning.</p>
+      <div class="figure-art">
+        <svg viewBox="0 0 640 300" role="img" aria-label="Generic section of a warehouse with an office block, divided into thermal zones">
+          <rect x="41" y="151" width="76" height="54" fill="#E2552F"/>
+          <g fill="none" stroke="#141412" stroke-width="1.25">
+            <line x1="0" y1="262" x2="640" y2="262"/>
+            <path d="M40 262 V96 L330 66 L620 96 V262"/>
+            <path d="M40 262 V150 H196 V262"/>
+            <line x1="40" y1="206" x2="196" y2="206"/>
+          </g>
+          <g fill="none" stroke="#141412" stroke-width="0.75" stroke-dasharray="3 4">
+            <line x1="118" y1="150" x2="118" y2="262"/>
+            <line x1="330" y1="70" x2="330" y2="262"/>
+            <line x1="470" y1="82" x2="470" y2="262"/>
+          </g>
+          <g fill="#141412" font-family="Schibsted Grotesk, sans-serif" font-size="11" letter-spacing="0.04em">
+            <text x="50" y="172">Z01</text><text x="128" y="172">Z02</text>
+            <text x="50" y="228">Z03</text><text x="128" y="228">Z04</text>
+            <text x="210" y="120">Z05 · warehouse</text><text x="340" y="120">Z06</text><text x="480" y="120">Z07</text>
+          </g>
+          <text x="0" y="292" fill="#141412" font-family="Schibsted Grotesk, sans-serif" font-size="11">Generic industrial-and-office section, thermal zoning. Illustrative.</text>
+        </svg>
       </div>
     </div>
   </section>
 
-  <!-- Expertise -->
-  <section id="expertise">
-    <div class="container">
-      <div class="content-center">
-        <h2>What can we do for you?</h2>
-        <p>
-          <!-- Up to day, Ihave had experience in the research and private sector. -->
-        </p>
-      </div>
-      <!-- Start expertise -->
-      <div class="row">
-        <!-- Building energy modeling -->
-        <div class="col-md-6 col-lg-4">
-          <div class="expertise-container">
-            <div class="expertise expertise-box-light content-center">
-              <i class="bx bxs-buildings bx-md"></i>
-              <h3>
-                Building Energy Modeling
-              </h3>
-              <p class="topmargin-xs">
-                <!-- We can offer simulation services for all building sizes and types (multifamily, offices, mall, datacenter, etc.).
-                  We will model according to your end goal:
-                  Compliance, including ASHRAE 90.1 studies
-                  Certification: LEED, BREEAM, HQE
-                  Energy Simulation aided Building Design: parametric studies and optimization algorithms-->
-              </p>
-              <!-- <a href="#" class="btn btn-dark half-width disabled">Learn more</a> -->
-            </div>
-          </div>
-        </div>
-        <!-- Residential Energy Rating -->
-        <div class="col-md-6 col-lg-4">
-          <div class="expertise-container">
-            <div class="expertise expertise-box-light content-center">
-              <i class="bx bxs-home-smile bx-md"></i>
-              <h3>
-                Residential Energy Rating
-              </h3>
-              <p class="topmargin-xs">
-                <!-- We can offer simulation services for all building sizes and types (multifamily, offices, mall, datacenter, etc.).
-                  We will model according to your end goal:
-                  Compliance, including ASHRAE 90.1 studies
-                  Certification: LEED, BREEAM, HQE
-                  Energy Simulation aided Building Design: parametric studies and optimization algorithms-->
-              </p>
-              <!-- <a href="#" class="btn btn-dark half-width disabled">Learn more</a> -->
-            </div>
-          </div>
-        </div>
-        <!-- Sustainable Building Certification -->
-        <div class="col-md-6 col-lg-4">
-          <div class="expertise-container">
-            <div class="expertise expertise-box-light content-center">
-              <i class="bx bxs-building-house bx-md"></i>
-              <h3>
-                Sustainable Building Certification
-              </h3>
-              <p class="topmargin-xs">
-                <!-- We can offer simulation services for all building sizes and types (multifamily, offices, mall, datacenter, etc.).
-                  We will model according to your end goal:
-                  Compliance, including ASHRAE 90.1 studies
-                  Certification: LEED, BREEAM, HQE
-                  Energy Simulation aided Building Design: parametric studies and optimization algorithms-->
-              </p>
-              <!-- <a href="#" class="btn btn-dark half-width disabled">Learn more</a> -->
-            </div>
-          </div>
-        </div>
-
-
-
-        <!-- Energy management -->
-        <!-- Energy audits -->
-        <div class="col-md-6 col-lg-4">
-          <div class="expertise-container">
-            <div class="expertise expertise-box-light content-center">
-              <i class="bx bx-line-chart bx-md"></i>
-              <h3>Energy Management</h3>
-              <p class="topmargin-xs">
-                <!-- Text description -->
-              </p>
-              <!-- <a href="#" class="btn btn-dark half-width disabled">Learn more</a> -->
-            </div>
-          </div>
-        </div>
-        <!-- Energy audits -->
-        <div class="col-md-6 col-lg-4">
-          <div class="expertise-container">
-            <div class="expertise expertise-box-light content-center">
-              <i class="bx bxs-calculator bx-md"></i>
-              <h3>Energy Audits</h3>
-              <p class="topmargin-xs">
-                <!-- Text description -->
-              </p>
-              <!-- <a href="#" class="btn btn-dark half-width disabled">Learn more</a> -->
-            </div>
-          </div>
-        </div>
-        <!-- Renewable Energy -->
-        <div class="col-md-6 col-lg-4">
-          <div class="expertise-container">
-            <div class="expertise expertise-box-light content-center">
-              <i class='bx bx-sun bx-md'></i>
-              <h3>Renewable Energy</h3>
-              <p class="topmargin-xs">
-                <!-- Text description -->
-              </p>
-              <!-- <a href="#" class="btn btn-dark half-width disabled">Learn more</a> -->
-            </div>
-          </div>
-        </div>
-
-
-
-        <!-- End expertise -->
-        <!-- </div>
-        <div class="text-center topmargin-sm">
-          <p >Looking for collaboration?</p>
-          <a href="#contact" class="text-dark"><b>Just let me know.</b></a>
-        </div>
-      </div> -->
+  <section class="sec" id="situations" aria-labelledby="situations-title">
+    <div class="wrap grid">
+      <h2 id="situations-title">When teams bring us in</h2>
+      <p class="intro">Usually it is one of these five. If none fits, write anyway and describe the project.</p>
+      <ol class="situations">
+        <li>A BREEAM or LEED modelling package has to be delivered, and nobody on the team models every day.</li>
+        <li>The team is at capacity for a phase or a single project.</li>
+        <li>A demand or sizing model has to become a detailed consumption model.</li>
+        <li>The design team wants model-based evidence before decisions get expensive to change.</li>
+        <li>A submission, a revision or an assessor comment needs structured modelling support.</li>
+      </ol>
+    </div>
   </section>
 
-  <!-- Skills -->
-  <section id="skills">
-    <div class="container">
-      <div class="content-center">
-        <h2>Software Skills</h2>
-        <p>
-          <!-- During my entire professional career I have extensively used modeling, simulation and programming tools. -->
-        </p>
+  <section class="sec sec--tight-top" id="credits" aria-labelledby="credits-title">
+    <div class="wrap grid">
+      <h2 id="credits-title">What we model</h2>
+      <p class="intro">One OpenStudio and EnergyPlus model feeds every credit below. The first credit carries the modelling work. The ones after it cost much less.</p>
+      <div class="tablebox">
+        <table>
+          <caption class="skip">Credits covered by scheme and version</caption>
+          <thead>
+            <tr><th scope="col">Analysis</th><th scope="col">BREEAM Int. NC V6</th><th scope="col">BREEAM Int. NC V7</th><th scope="col">LEED v4.1 BD+C</th><th scope="col">LEED v5 BD+C</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Regulated energy</th><td data-label="BREEAM Int. NC V6">Ene 01</td><td data-label="BREEAM Int. NC V7">Ene 01</td><td data-label="LEED v4.1 BD+C">EA Minimum and Optimize Energy Performance</td><td data-label="LEED v5 BD+C">EAp2, EAc3</td></tr>
+            <tr><th scope="row">Operational energy</th><td data-label="BREEAM Int. NC V6">Ene 01 prediction</td><td data-label="BREEAM Int. NC V7">Ene 02</td><td data-label="LEED v4.1 BD+C">—</td><td data-label="LEED v5 BD+C">EAp1</td></tr>
+            <tr><th scope="row">Thermal comfort, future climate</th><td data-label="BREEAM Int. NC V6">Hea 04</td><td data-label="BREEAM Int. NC V7">Hea 05</td><td data-label="LEED v4.1 BD+C">EQ Thermal Comfort</td><td data-label="LEED v5 BD+C">EQc2</td></tr>
+            <tr><th scope="row">Peak thermal loads</th><td data-label="BREEAM Int. NC V6">—</td><td data-label="BREEAM Int. NC V7">—</td><td data-label="LEED v4.1 BD+C">—</td><td data-label="LEED v5 BD+C">EAc2</td></tr>
+          </tbody>
+        </table>
       </div>
+      <p class="table-note">On request, scoped per project: passive design and fabric studies, low and zero carbon feasibility, daylight. <a href="services/">All services in detail</a>.</p>
+    </div>
+  </section>
 
-      <!-- Building energy performance -->
-      <h3>Energy Modeling and Data Analysis</h3>
-      <div class="row">
-        <!-- TRNSYS -->
-        <div class="col-md-6 col-lg-4">
-          <div class="skills-container">
-            <div class="skills skills-box-light content-center">
-              <div class="row">
-                <div class="col-md-8">
-                  <h4>TRNSYS</h4>
-                  <p class="topmargin-xs">
-                    TRNSYS is a simulation program commonly used in the fields of building simulation and renewable
-                    energy engineering: solar thermal processes, ground coupled heat transfer, wind and photovoltaic
-                    systems, among others.
-                  </p>
-                </div>
-                <div class="col-md-4">
-                  <img src="img/trnsys-logo.jpg" class="img-fluid rounded skills-logo" alt="trnsys logo" />
-                  <a href="http://www.trnsys.com/index.html" class="skills-link">Learn more</a>
-                </div>
-              </div>
-            </div>
-          </div>
+  <section class="band" id="timing" aria-labelledby="timing-title">
+    <div class="wrap grid">
+      <h2 id="timing-title">Some credits are won at concept.</h2>
+      <p class="intro">Evidence is submitted at design stage and checked after construction. When the modelling starts decides which credits are still open.</p>
+      <ol class="stages">
+        <li><span class="dot dot--1" aria-hidden="true"></span><h3>Concept</h3><p>Building form and early energy strategy. Options are still cheap to test.</p></li>
+        <li><span class="dot dot--2" aria-hidden="true"></span><h3>Schematic</h3><p>Fabric, low and zero carbon options, a first comfort check. Before the envelope is frozen.</p></li>
+        <li><span class="dot dot--3" aria-hidden="true"></span><h3>Technical design</h3><p>Final energy and comfort models. The design-stage evidence is written here.</p></li>
+        <li><span class="dot dot--4" aria-hidden="true"></span><h3>Post-construction</h3><p>As-built check. Often a confirmation, sometimes a model update.</p></li>
+      </ol>
+      <p class="stage-cta">Not sure what is still open on your project? <a href="#contact">Ask for a Credit Viability Read.</a></p>
+    </div>
+  </section>
+
+  <section class="sec" id="process" aria-labelledby="process-title">
+    <div class="wrap grid">
+      <h2 id="process-title">How a project runs</h2>
+      <ol class="steps">
+        <li><h3>Intake</h3><p>You send the drawings and the minimum data from our intake table. We confirm in writing when it is complete.</p></li>
+        <li><h3>Fixed fee</h3><p>A fee per building and per credit, with a confirmed start date.</p></li>
+        <li><h3>First result on a set date</h3><p>Diagnosis and recommendations for your priority credit, on the date written in the quote.</p></li>
+        <li><h3>Iterations</h3><p>Two rounds of design iteration included. Changing glazing, U-values or set-points is an iteration, not new scope.</p></li>
+        <li><h3>Evidence and comments</h3><p>Reports written for the assessor. We answer every question about our work, from you, the assessor, BRE or USGBC, until it is accepted. No extra fee.</p></li>
+        <li><h3>As-built</h3><p>Post-construction review, quoted separately.</p></li>
+      </ol>
+      <aside class="limits" aria-labelledby="limits-title">
+        <h3 id="limits-title">What stays with you</h3>
+        <ul>
+          <li>The client relationship and the certification lead.</li>
+          <li>Architecture and MEP design responsibility.</li>
+          <li>The rating. The certifier awards it.</li>
+        </ul>
+        <h3>What we don't take on</h3>
+        <ul>
+          <li>Full certification management.</li>
+          <li>Site inspections.</li>
+          <li>Local regulatory compliance sign-off.</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="sec sec--tight-top" id="engage" aria-labelledby="engage-title">
+    <div class="wrap grid">
+      <h2 id="engage-title">Three ways to work with us</h2>
+      <div class="ways">
+        <div><h3>One credit</h3><p>The credit your project is missing, a Hea 05 or an Ene 02. Base model included if none exists.</p></div>
+        <div class="ways-main"><h3>Energy and comfort package</h3><p>One base model per building and several credits on top of it. This is most of our work.</p></div>
+        <div><h3>Multi-building programme</h3><p>Three or more buildings, priced per building and invoiced as each one is delivered.</p></div>
+      </div>
+      <p class="table-note">Any of the three can be delivered under your brand. White-label is how much of our work is done.</p>
+    </div>
+  </section>
+
+  <section class="sec sec--tight-top" id="cases" aria-labelledby="cases-title">
+    <div class="wrap grid">
+      <h2 id="cases-title">Cases</h2>
+      <article class="case">
+        <p class="case-tag">BREEAM International NC V6<br>Hea 04</p>
+        <h3><a href="cases/east-gate/">East Gate Business Park Pro B2</a></h3>
+        <p class="case-body">Thermal comfort and climate adaptability for warehouse and office areas. Current and future weather, tested on a dynamic model.</p>
+        <p class="case-link"><a href="cases/east-gate/">Read the case</a></p>
+        <ul class="case-facts"><li>64 thermal zones</li><li>OpenStudio, EnergyPlus</li><li>R2F-branded delivery</li></ul>
+      </article>
+      <article class="case">
+        <p class="case-tag">LEED v4.1 BD+C Core and Shell<br>EA</p>
+        <h3><a href="cases/lisbon-offices/">Two office renovations, Lisbon</a></h3>
+        <p class="case-body">Appendix G baseline and proposed models for both buildings, delivered inside a partner's process and under their brand.</p>
+        <p class="case-link"><a href="cases/lisbon-offices/">Read the case</a></p>
+        <ul class="case-facts"><li>About 18,000 m²</li><li>Multiple HVAC system types</li><li>White-label delivery</li></ul>
+      </article>
+      <div class="project-index">
+        <h3>Other projects</h3>
+        <div class="tablebox tablebox--flat">
+          <table>
+            <caption class="skip">Other projects</caption>
+            <thead><tr><th scope="col">Building</th><th scope="col">Scheme</th><th scope="col">Credits</th><th scope="col">Area</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Logistics and offices, Portugal</th><td data-label="Scheme">BREEAM International NC V6</td><td data-label="Credits">Ene 01, Hea 04</td><td data-label="Area">32,230 m²</td></tr>
+              <tr><th scope="row">Airport hotel, Hungary</th><td data-label="Scheme">BREEAM</td><td data-label="Credits">Hea 04</td><td data-label="Area">7,995 m²</td></tr>
+              <tr><th scope="row">Logistics and offices, halted before certification</th><td data-label="Scheme">BREEAM</td><td data-label="Credits">Ene 01, Hea 04</td><td data-label="Area">49,546 m²</td></tr>
+            </tbody>
+          </table>
         </div>
-        <!-- OpenStudio -->
-        <div class="col-md-6 col-lg-4">
-          <div class="skills-container">
-            <div class="skills skills-box-light content-center">
-              <div class="row">
-                <div class="col-md-8">
-                  <h4>Open Studio</h4>
-                  <p class="topmargin-xs">
-                    OpenStudio is a collection of software tools to support whole building
-                    energy modeling using EnergyPlus and advanced daylight
-                    analysis using Radiance.
-                  </p>
-                </div>
-                <div class="col-md-4">
-                  <img src="img/openstudio_thumb.png" class="img-fluid rounded skills-logo" alt="open studio logo" />
-                  <a href="https://www.openstudio.net/" class="skills-link">
-                    Learn more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- EnergyPlus -->
-        <div class="col-md-6 col-lg-4">
-          <div class="skills-container">
-            <div class="skills skills-box-light content-center">
-              <div class="row">
-                <div class="col-md-8">
-                  <h4>EnergyPlus</h4>
-                  <p class="topmargin-xs">
-                    EnergyPlus is a whole building energy simulation program used to model both energy consumption for
-                    heating, cooling, ventilation, lighting and plug and process loads and water use in buildings.
-                  </p>
-                </div>
-                <div class="col-md-4">
-                  <img src="img/energyplus.jpg" class="img-fluid rounded skills-logo" alt="energyplus logo" />
-                  <a href="https://energyplus.net/" class="skills-link">
-                    Learn more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- THERM -->
-        <div class="col-md-6 col-lg-4">
-          <div class="skills-container">
-            <div class="skills skills-box-light content-center">
-              <div class="row">
-                <div class="col-md-8">
-                  <h4>THERM</h4>
-                  <p class="topmargin-xs">
-                    THERM is a state-of-the-art computer program based on the finite-element method and used to model
-                    two-dimensional heat-transfer effects in building components such as windows, walls, foundations,
-                    roofs, doors and other products where <b>thermal bridges</b> are of concern.
-                  </p>
-                </div>
-                <div class="col-md-4">
-                  <img src="img/therm-banner.png" class="img-fluid rounded skills-logo" alt="therm logo" />
-                  <a href="https://windows.lbl.gov/software/therm" class="skills-link">
-                    Learn more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- PEB (Belgium) -->
-        <div class="col-md-6 col-lg-4">
-          <div class="skills-container">
-            <div class="skills skills-box-light content-center">
-              <div class="row">
-                <div class="col-md-8">
-                  <h4>PEB (Belgium)</h4>
-                  <p class="topmargin-xs">
-                    The PEB software is the official calculation tool provided by the Belgian energy performance of
-                    buildings program and used (among others things) to verify compliance of the requirements for each
-                    particular project.
-                  </p>
-                </div>
-                <div class="col-md-4">
-                  <img src="img/logo-logicielpeb.png" class="img-fluid rounded skills-logo" alt="PEB logiciel logo" />
-                  <a href="https://environnement.brussels/thematiques/batiment-et-energie/obligations/la-performance-energetique-des-batiments-peb/travaux-p-0?view_pro=1"
-                    class="skills-link">
-                    Learn more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Python -->
-        <div class="col-md-6 col-lg-4">
-          <div class="skills-container">
-            <div class="skills skills-box-light content-center">
-              <div class="row">
-                <div class="col-md-8">
-                  <h4>Python</h4>
-                  <p class="topmargin-xs">
-                    Python is a free, open-source programming language which has a huge and growing ecosystem with a
-                    variety of open-source packages and libraries.
-                  <p>Some of them are: <a href="https://numpy.org/" class="text-link"> Numpy</a>,<a
-                      href="https://pandas.pydata.org/" class="text-link"> Pandas</a>,<a href="http://www.coolprop.org/"
-                      class="text-link"> CoolProp</a>, <a href="https://pvlib-python.readthedocs.io/en/stable/#"
-                      class="text-link">pvlib</a>. </p>
-                  </p>
-                </div>
-                <div class="col-md-4">
-                  <img src="img/python-logo.png" class="img-fluid rounded skills-logo" alt="python logo" />
-                  <a href="https://www.python.org/" class="skills-link">Learn more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <p class="table-note">Projects are named only with the client's agreement.</p>
       </div>
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact">
-    <div class="container">
-      <h2 style="text-align: center">Contact Us!</h2>
-      <div class="row">
-        <div class="col-md-6 topmargin-sm">
-
-          <h3><b>Are you looking for advice or collaboration?</b> </h3>
-          <br>
-          <p>
-            If you have any questions or need more information about our energy design and optimization services,
-            environmental certifications, energy audits, energy management, and renewable energy, feel free to contact
-            us. You can send us an
-            <a href="mailto:roberto@r2f.solutions" class="text-link">email</a> or fill out the following contact form.
-          </p>
-          <p> <b>We will be happy to assist you with whatever you need.</b></p>
-        </div>
-        <div class="col-md-6 topmargin-sm">
-          <form name="r2f-contact-form" data-netlify="true">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="" placeholder="Name" required="required" />
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="form-group">
-                  <input type="email" name="email" class="form-control" id="" placeholder="Email" required="required" />
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="form-group">
-                  <input type="text" name="subject" class="form-control" id="" placeholder="Subject"
-                    required="required" />
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="form-group">
-                  <textarea name="message" id="" class="form-control" rows="8" placeholder="Your message"
-                    required="required"></textarea>
-                </div>
-              </div>
-              <div class="col-md-12">
-                <button type="submit" class="btn btn-dark full-width text-uppercase">Send message </button>
-              </div>
-            </div>
-          </form>
-        </div>
+  <section class="band" id="method" aria-labelledby="method-title">
+    <div class="wrap grid">
+      <h2 id="method-title">One model, kept reviewable</h2>
+      <p class="intro">Automation handles the repetitive work and the checks. Engineering decisions stay with an engineer.</p>
+      <dl class="method">
+        <div><dt>Reusable base model</dt><dd>Each building gets one structured model. Later credits and the as-built update build on it instead of starting again.</dd></div>
+        <div><dt>Assumptions you can read</dt><dd>Every input sits in a register you can review, and that an assessor can follow months later.</dd></div>
+        <div><dt>Checks before results leave</dt><dd>Repeatable QA checks run on the model before anything is sent.</dd></div>
+      </dl>
+      <div class="tools">
+        <h3>Open tools we maintain</h3>
+        <ul>
+          <li><a href="https://github.com/roruizf/openstudio-mcp-server">OpenStudio MCP Server</a></li>
+          <li><a href="https://github.com/roruizf/OpenStudio-Toolkit">OpenStudio Toolkit</a></li>
+          <li><a href="https://github.com/roruizf/OpenStudio-Python-Methods-Explorer">OpenStudio Python Methods Explorer</a></li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <section id="footer" class="bg-dark border">
-    <div class="container">
-      <a class="navbar-brand nav-link-logo" href="#">
-        <img src="img/r2f-logo-black.png" class="logo-brand-footer" alt="r2f-logo" />
-        <!-- <h4 class="d-inline-block"> R &sup2; F </h4> -->
-        <!-- R&sup2;F -->
-      </a>
-      <!-- Footer links -->
-      <ul class="list-inline">
-        <li class="list-inline-item footer-menu">
-          <a class="nav-link" href="#home" id="">Home</a>
-        </li>
-        <li class="list-inline-item footer-menu">
-          <a class="nav-link" href="#about" id="">About</a>
-        </li>
-        <li class="list-inline-item footer-menu">
-          <a class="nav-link" href="#expertise" id="">Services</a>
-        </li>
-        <li class="list-inline-item footer-menu">
-          <a class="nav-link" href="#skills" id="">Software</a>
-        </li>
-        <li class="list-inline-item footer-menu">
-          <a class="nav-link" href="#contact" id="">Contact Us</a>
-        </li>
+  <section class="sec sec--tight-top" id="about" aria-labelledby="about-title">
+    <div class="wrap grid">
+      <figure class="about-photo">
+        <img src="img/roberto-ruiz.jpg" alt="Roberto Ruiz leaning on a railing in front of a timber-shingled building" width="960" height="1200" loading="lazy">
+        <figcaption>Roberto Ruiz, founder of R2F.</figcaption>
+      </figure>
+      <div class="about-text">
+        <h2 id="about-title">The person who answers your email builds your model.</h2>
+        <p>Roberto Ruiz is a mechanical engineer with more than ten years in building energy efficiency. He builds every R2F model himself and answers the assessor's questions himself.</p>
+        <p class="muted">R2F works project by project and remotely, with consultancies, assessors and engineering offices across Europe. You keep the client and the certification lead. We own the modelling scope we agree.</p>
+        <ul class="facts-inline">
+          <li><strong>6</strong>BREEAM projects, 8 buildings</li>
+          <li><strong>10+</strong>years in building energy</li>
+          <li><strong>BREEAM · LEED</strong>V6, V7 · v4.1, v5</li>
+          <li><strong>EN · FR · ES</strong>working languages</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="faq" aria-labelledby="faq-title">
+    <div class="wrap grid">
+      <h2 id="faq-title">Questions we get</h2>
+      <div class="faq">
+        <details><summary>Do you publish prices?</summary><p>No. You get a range early, and a fixed fee per building and credit once the minimum data is in. Every quote lists what is included and what is not.</p></details>
+        <details><summary>Can you work under our brand?</summary><p>Yes. We use your templates and your name on the reports, and we stay out of your client relationship.</p></details>
+        <details><summary>What do you need to start?</summary><p>Drawings, the scheme and version, the assessment type, the design stage and a description of the systems. At intake we send a short table of the minimum data and who usually provides it.</p></details>
+        <details><summary>How long until the first result?</summary><p>It depends on the size and complexity of the building and the first credit. The date is written in the quote, and the clock starts when the minimum data is complete.</p></details>
+        <details><summary>Do you guarantee the credits?</summary><p>No one honestly can: the certifier awards them. We guarantee our own work. If the assessor or BRE finds an error in it, we fix it until it is accepted.</p></details>
+        <details><summary>Which software do you use?</summary><p>OpenStudio and EnergyPlus, with our own scripts for setup and QA.</p></details>
+        <details><summary>Where do you work?</summary><p>Remotely, with teams across Europe, in English, French or Spanish.</p></details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<section class="contact" id="contact" aria-labelledby="contact-title">
+  <div class="wrap grid">
+    <h2 id="contact-title">Send the scheme, the credits and the stage.</h2>
+    <div class="contact-row">
+      <a class="btn" href="mailto:roberto@r2f.solutions">roberto@r2f.solutions</a>
+      <p>A few lines are enough. Roberto replies himself.</p>
+    </div>
+    <div class="send-list">
+      <h3>Useful to include</h3>
+      <ul>
+        <li>Building type and location</li>
+        <li>Scheme and version, if known</li>
+        <li>Design stage</li>
+        <li>Timing</li>
+        <li>Any drawings or scope you already have</li>
       </ul>
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="mailto:roberto@r2f.solutions">
-            <ion-icon name="mail"></ion-icon>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://www.linkedin.com/company/r2f-energy-efficient-solutions/">
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://www.instagram.com/r2f.solutions/">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-        </li>
-        <!-- <li class="list-inline-item">
-          <a href="https://twitter.com/roruizf">
-            <ion-icon name="logo-twitter"></ion-icon>
-          </a>
-        </li> -->
-      </ul>
-      <small>©2025 All Rights Reserved. Created by
-        <a href="#" class="font-weight-bold" target="_blank" rel="noopener">roruizf</a></small>
     </div>
-  </section>
+    <footer class="site-footer">
+      <span>© 2026 R2F Energy Efficient Solutions LLC</span>
+      <span><a href="https://www.linkedin.com/company/r2f-energy-efficient-solutions">LinkedIn</a> · <a href="https://github.com/roruizf">GitHub</a></span>
+    </footer>
+  </div>
+</section>
 
-  <!-- Optional JavaScript; choose one of the two! -->
-
-  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-    crossorigin="anonymous"></script>
-
-  <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    -->
 </body>
-
 </html>
