@@ -871,3 +871,11 @@ h1, h2, h3 { text-wrap: balance; }
 @media (max-width: 520px) {
   .site-nav { gap: 0 16px; font-size: 14px; }
 }
+
+/* Readability: body text near-black, larger; grey only for metadata */
+:root { --text: #2E2E2A; }
+body { font-size: 18px; line-height: 1.55; }
+.intro, .case-body, .steps p, .ways p, .method dd, .svc-body dd, .faq details p,
+.stages p, .about-text .muted, .limits li, .table-note { color: var(--text); }
+.svc-body dd, .steps p, .ways p, .method dd, .stages p, .limits li { font-size: 17px; }
+.intro, .faq details p, .about-text p { max-width: 38em; }
