@@ -56,7 +56,7 @@
       <div class="hero-meta">
         <p class="lede">Consultancies and assessors bring us the simulation-heavy part of the credit route. We build the model, check it, and write the evidence. Under your brand or ours.</p>
         <p class="disclaimer">We deliver the modelling and the evidence for the credits. The certifier awards them.</p>
-        <div class="hero-cta"><a class="btn" href="#contact">Get in touch</a></div>
+        <div class="hero-cta"><a class="btn" href="#read">Ask for a Credit Viability Read</a></div>
       </div>
     </div>
   </section>
@@ -86,6 +86,17 @@
           <text x="0" y="292" fill="#141412" font-family="Schibsted Grotesk, sans-serif" font-size="11">Generic industrial-and-office section, thermal zoning. Illustrative.</text>
         </svg>
       </div>
+    </div>
+  </section>
+
+  <section class="record" aria-label="Track record">
+    <div class="wrap">
+      <ul class="record-list">
+        <li><strong>6</strong>BREEAM projects, 8 buildings</li>
+        <li><strong>2</strong>LEED buildings, about 18,000 m²</li>
+        <li><strong>10+</strong>years in building energy</li>
+        <li><strong>EN · FR · ES</strong>working languages</li>
+      </ul>
     </div>
   </section>
 
@@ -204,7 +215,7 @@
             <thead><tr><th scope="col">Building</th><th scope="col">Scheme</th><th scope="col">Credits</th><th scope="col">Area</th></tr></thead>
             <tbody>
               <tr><th scope="row">Logistics and offices, Portugal</th><td data-label="Scheme">BREEAM International NC V6</td><td data-label="Credits">Ene 01, Hea 04</td><td data-label="Area">32,230 m²</td></tr>
-              <tr><th scope="row">Airport hotel, Hungary</th><td data-label="Scheme">BREEAM</td><td data-label="Credits">Hea 04</td><td data-label="Area">7,995 m²</td></tr>
+              <tr><th scope="row">Airport hotel, Hungary</th><td data-label="Scheme">BREEAM</td><td data-label="Credits">Hea 04</td><td data-label="Area">—</td></tr>
               <tr><th scope="row">Logistics and offices, halted before certification</th><td data-label="Scheme">BREEAM</td><td data-label="Credits">Ene 01, Hea 04</td><td data-label="Area">49,546 m²</td></tr>
             </tbody>
           </table>
@@ -244,13 +255,153 @@
         <h2 id="about-title">The person who answers your email builds your model.</h2>
         <p>Roberto Ruiz is a mechanical engineer with more than ten years in building energy efficiency. He builds every R2F model himself and answers the assessor's questions himself.</p>
         <p class="muted">R2F works project by project and remotely, with consultancies, assessors and engineering offices across Europe. You keep the client and the certification lead. We own the modelling scope we agree.</p>
-        <ul class="facts-inline">
-          <li><strong>6</strong>BREEAM projects, 8 buildings</li>
-          <li><strong>10+</strong>years in building energy</li>
-          <li><strong>BREEAM · LEED</strong>V6, V7 · v4.1, v5</li>
-          <li><strong>EN · FR · ES</strong>working languages</li>
-        </ul>
+        <dl class="background">
+          <div><dt>2022 – today</dt><dd>Founder and principal consultant, R2F</dd></div>
+          <div><dt>2018 – 2021</dt><dd>Expert in building energy efficiency, Sweco Belgium</dd></div>
+          <div><dt>2010 – 2016</dt><dd>Research engineer, University of Liège · five European research projects</dd></div>
+          <div><dt>Track record</dt><dd>Past BREEAM submissions approved by BRE</dd></div>
+        </dl>
+        <p class="about-links"><a href="https://www.linkedin.com/in/roruizf">LinkedIn</a> · <a href="https://github.com/roruizf">GitHub</a></p>
       </div>
+    </div>
+  </section>
+
+  <section class="band" id="read" aria-labelledby="read-title">
+    <div class="wrap grid">
+      <div class="read-intro">
+        <h2 id="read-title">Ask for a Credit Viability Read</h2>
+        <p>Ten answers about your project. We reply with the energy and comfort credits still open at your stage, what each one needs, and a price per credit.</p>
+        <p class="read-note">Not sure about a field? Choose "Not sure". Only the scheme and your email are required.</p>
+      </div>
+      <form class="read-form" id="read-form" action="mailto:roberto@r2f.solutions" method="post" enctype="text/plain">
+        <fieldset>
+          <legend>The certification</legend>
+          <div class="field">
+            <label for="f-scheme">1. Scheme and version</label>
+            <select id="f-scheme" name="Scheme and version" required>
+              <option value="">Choose…</option>
+              <option>BREEAM International NC V6</option>
+              <option>BREEAM International NC V7</option>
+              <option>LEED v4.1 BD+C</option>
+              <option>LEED v5 BD+C</option>
+              <option>Other / not sure</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-rating">2. Target rating</label>
+            <select id="f-rating" name="Target rating">
+              <option>Not sure</option>
+              <option>BREEAM Pass, Good or Very Good</option>
+              <option>BREEAM Excellent</option>
+              <option>BREEAM Outstanding</option>
+              <option>LEED Certified, Silver or Gold</option>
+              <option>LEED Platinum</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-type">3. Building type</label>
+            <select id="f-type" name="Building type">
+              <option>Not sure</option>
+              <option>Warehouse / logistics</option>
+              <option>Office</option>
+              <option>Hotel / hospitality</option>
+              <option>Retail</option>
+              <option>Industrial</option>
+              <option>Healthcare</option>
+              <option>Education</option>
+              <option>Residential institution</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-assess">4. Assessment type</label>
+            <select id="f-assess" name="Assessment type">
+              <option>Not sure</option>
+              <option>Fully fitted</option>
+              <option>Shell and core</option>
+              <option>Shell only</option>
+              <option>Partially fitted</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-route">5. Certification route</label>
+            <select id="f-route" name="Certification route">
+              <option>Not sure</option>
+              <option>Design stage</option>
+              <option>Design stage and post-construction</option>
+              <option>Post-construction only</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-stage">6. Design stage today</label>
+            <select id="f-stage" name="Design stage today">
+              <option>Not sure</option>
+              <option>Concept</option>
+              <option>Developed design</option>
+              <option>Technical design</option>
+              <option>Construction or handover</option>
+            </select>
+          </div>
+          <div class="field field--wide">
+            <label for="f-credits">7. Credits you have in mind</label>
+            <input id="f-credits" name="Credits in mind" type="text" placeholder="e.g. Ene 01 and Hea 05, or all applicable">
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>The building</legend>
+          <div class="field">
+            <label for="f-floors">8. Floors or internal units</label>
+            <input id="f-floors" name="Floors or units" type="text" placeholder="e.g. 6 floors, or 4 units">
+          </div>
+          <div class="field">
+            <label for="f-geom">9. Footprint and façade</label>
+            <select id="f-geom" name="Footprint and facade">
+              <option>Not sure</option>
+              <option>Regular: simple footprint, uniform façade</option>
+              <option>Irregular: complex footprint or varied façade</option>
+            </select>
+          </div>
+          <div class="field field--wide">
+            <label for="f-hvac">10. HVAC systems and spaces</label>
+            <select id="f-hvac" name="HVAC systems and spaces">
+              <option>Not sure</option>
+              <option>One system family serving the building</option>
+              <option>Several HVAC systems, or many space types to model</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-date">Target delivery date <span>(optional)</span></label>
+            <input id="f-date" name="Target date" type="date">
+          </div>
+          <div class="field">
+            <label for="f-location">Location</label>
+            <input id="f-location" name="Location" type="text" placeholder="City, country">
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>You</legend>
+          <div class="field">
+            <label for="f-name">Name</label>
+            <input id="f-name" name="Name" type="text" autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="f-company">Company</label>
+            <input id="f-company" name="Company" type="text" autocomplete="organization">
+          </div>
+          <div class="field field--wide">
+            <label for="f-email">Email</label>
+            <input id="f-email" name="Email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field field--wide">
+            <label for="f-notes">Anything else</label>
+            <textarea id="f-notes" name="Notes" rows="3"></textarea>
+          </div>
+        </fieldset>
+        <div class="read-submit">
+          <button class="btn" type="submit">Prepare the email</button>
+          <p>This opens your email app with your answers filled in. Nothing is stored on this site.</p>
+        </div>
+      </form>
     </div>
   </section>
 
@@ -295,5 +446,6 @@
   </div>
 </section>
 
+<script src="js/read-form.js" defer></script>
 </body>
 </html>

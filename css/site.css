@@ -879,3 +879,124 @@ body { font-size: 18px; line-height: 1.55; }
 .stages p, .about-text .muted, .limits li, .table-note { color: var(--text); }
 .svc-body dd, .steps p, .ways p, .method dd, .stages p, .limits li { font-size: 17px; }
 .intro, .faq details p, .about-text p { max-width: 38em; }
+
+/* Hero CTA wider */
+.disclaimer { grid-column: 7 / span 3; }
+.hero-cta { grid-column: 10 / span 3; }
+
+/* Track record strip */
+.record { border-bottom: 1px solid var(--ink); }
+
+.record-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: clamp(12px, 1.6vw, 24px);
+}
+
+.record-list li { padding: 28px 12px 30px 0; font-size: 15px; color: var(--mid); }
+
+.record-list strong {
+  display: block;
+  color: var(--ink);
+  font-size: clamp(30px, 3.4vw, 48px);
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+/* Founder background */
+.background { margin: 28px 0 0; border-top: 1px solid var(--ink); }
+
+.background > div {
+  display: grid;
+  grid-template-columns: 8.5em 1fr;
+  gap: 16px;
+  border-bottom: 1px solid var(--hair);
+  padding: 12px 0;
+}
+
+.background dt { color: var(--mid); font-size: 15px; }
+.background dd { margin: 0; font-size: 17px; }
+
+.about-text .about-links { margin-top: 20px; font-weight: 600; }
+.about-links a { text-underline-offset: 4px; }
+
+/* Credit Viability Read form */
+.read-intro { grid-column: 1 / span 4; }
+
+.read-intro h2 {
+  font-size: clamp(30px, 3.6vw, 52px);
+  line-height: 1;
+  letter-spacing: -0.035em;
+  margin: 0 0 20px;
+}
+
+.read-intro p { margin: 0 0 16px; color: var(--text); }
+.read-intro .read-note { color: var(--mid); font-size: 15px; }
+
+.read-form { grid-column: 6 / span 7; }
+
+.read-form fieldset {
+  border: 0;
+  border-top: 2px solid var(--ink);
+  margin: 0 0 32px;
+  padding: 16px 0 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 20px;
+}
+
+.read-form legend {
+  float: left;
+  width: 100%;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 4px;
+  grid-column: 1 / -1;
+}
+
+.field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.field--wide { grid-column: 1 / -1; }
+.field label { font-size: 15px; font-weight: 600; }
+.field label span { font-weight: 400; color: var(--mid); }
+
+.field input,
+.field select,
+.field textarea {
+  font: inherit;
+  font-size: 16px;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid #A9A9A3;
+  border-radius: 0;
+  padding: 11px 12px;
+  min-height: 46px;
+  width: 100%;
+}
+
+.field textarea { resize: vertical; }
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus { outline: 2px solid var(--accent); outline-offset: 0; border-color: var(--ink); }
+
+.read-submit { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; }
+.read-submit .btn { border: 0; cursor: pointer; font-family: inherit; font-size: 16px; padding: 15px 24px; }
+.read-submit p { margin: 0; color: var(--mid); font-size: 14px; max-width: 26em; }
+
+@media (max-width: 900px) {
+  .record-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 800px) {
+  .disclaimer, .hero-cta, .read-intro, .read-form { grid-column: 1 / -1; }
+  .read-form { margin-top: 32px; }
+}
+
+@media (max-width: 520px) {
+  .read-form fieldset { grid-template-columns: 1fr; }
+  .background > div { grid-template-columns: 1fr; gap: 2px; }
+}
